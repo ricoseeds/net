@@ -26,10 +26,12 @@ CONFIG += c++11
 
 SOURCES += \
         main.cpp \
-    MyRect.cpp
+    MyRect.cpp \
+    Bullet.cpp
 
 HEADERS += \
-    MyRect.h
+    MyRect.h \
+    Bullet.h
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
